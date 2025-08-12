@@ -52,17 +52,19 @@ SQUAD-QA/
     ├── assets/
     │   ├── qa_model/          # Extracted model files
     │   ├── qa_model_tokenizer/# Extracted tokenizer files
-    │   └── squad2.ipynb       # Original training notebook
     │
     ├── notebook/
-    │   └── squad2.ipynb       # Jupyter/Colab notebook
+    │   └── SQUAD.ipynb       # Jupyter/Colab notebook
     │
     └── views/
         ├── __init__.py
         └── app.py             # Streamlit web app
+        └── components
+            └── answer_display.py
+            └── header.py
+            └── input_form.py
+            └── sidebar.py
 ```
-
----
 
 ## 📦 Installation
 
