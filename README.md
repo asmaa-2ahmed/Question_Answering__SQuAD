@@ -1,3 +1,4 @@
+
 ![Banner Image](src/image.png)
 # 🔍 SQuAD - Question Answering System
 
@@ -35,7 +36,7 @@ The system takes a **context paragraph** and a **question**, and returns the mos
 
 ## 📂 Project Structure
 
-\`\`\`
+```
 SQUAD-QA/
 │
 ├── main.py                   # CLI & Web launcher
@@ -59,32 +60,32 @@ SQUAD-QA/
     └── views/
         ├── __init__.py
         └── app.py             # Streamlit web app
-\`\`\`
+```
 
 ---
 
 ## 📦 Installation
 
 1️⃣ **Clone the repository**
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/squad-qa.git
 cd squad-qa
-\`\`\`
+```
 
 2️⃣ **Create and activate a virtual environment**  
 *(Recommended for clean dependency management)*
-\`\`\`bash
+```bash
 python -m venv venv
 # Windows
-venv\Scripts\activate
+venv\Scripts ctivate
 # macOS/Linux
 source venv/bin/activate
-\`\`\`
+```
 
 3️⃣ **Install dependencies**
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 4️⃣ **Add model & tokenizer files**  
 - Place your **qa_model** and **qa_model_tokenizer** directories (or zips) in `src/assets/`.
@@ -96,43 +97,43 @@ pip install -r requirements.txt
 
 ### **1. Web App (Streamlit)**
 From the project root:
-\`\`\`bash
+```bash
 streamlit run src/views/app.py
-\`\`\`
+```
 Then open the link provided in your terminal (usually `http://localhost:8501`).
 
 ### **2. CLI Mode**
 Run:
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 You can also launch the web app via CLI:
-\`\`\`bash
+```bash
 python main.py --web
-\`\`\`
+```
 
 ---
 
 ## 🖥️ Example Usage (CLI)
 
 **Context:**
-\`\`\`
+```
 Hugging Face is a company that develops tools for building applications using machine learning.
-\`\`\`
+```
 
 **Question:**
-\`\`\`
+```
 What does Hugging Face develop?
-\`\`\`
+```
 
 **Output:**
-\`\`\`
+```
 Q: What does Hugging Face develop?
 A: tools for building applications using machine learning
 Confidence: 0.92
 Start: 28
 End: 84
-\`\`\`
+```
 
 ---
 
