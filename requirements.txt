@@ -1,0 +1,9 @@
+transformers>=4.30.0
+datasets
+evaluate
+accelerate
+pandas
+scikit-learn
+torch
+streamlit
+pydantic
