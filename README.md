@@ -1,6 +1,6 @@
 # 🔍 SQuAD - Question Answering System
 
-![Banner Image](src/assets/image.png)
+![Banner Image](src/assets/QA image.png)
 
 A **Question Answering (QA)** application powered by a fine-tuned **DistilBERT** model trained on the **SQuAD dataset**.  
 This project provides both:
